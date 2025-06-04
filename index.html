@@ -29,7 +29,7 @@
     <!-- Font Awesome  -->
     <style type="text/tailwindcss">
       @theme {
-        --spacing-container: 1320px;
+        --spacing-container: 1280px;
         --font-poppins: "Poppins", sans-serif;
       }
     </style>
@@ -40,8 +40,8 @@
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg 
-              class="w-[40px]"
+              <svg
+                class="w-[40px]"
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
                 fill="none"
@@ -60,22 +60,36 @@
               tabindex="0"
               class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2"
             >
-              <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">HOME</a></li>
               <li>
-                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">ABOUT US</a>
+                <a
+                  class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                  >HOME</a
+                >
               </li>
               <li>
-                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">SERVICES</a>
+                <a
+                  class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                  >ABOUT US</a
+                >
               </li>
               <li>
-                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">WORKS</a>
+                <a
+                  class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                  >SERVICES</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                  >WORKS</a
+                >
               </li>
             </ul>
           </div>
-          <a class="text-xl ">
+          <a class="text-xl">
             <picture>
               <img
-                class="w-[170px] hidden lg:flex"
+                class="w-[160px] hidden lg:flex"
                 src="./images/navBarLogo.png"
                 alt=""
               />
@@ -84,21 +98,69 @@
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">HOME</a></li>
             <li>
-              <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">ABOUT US</a>
+              <a
+                class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                >HOME</a
+              >
             </li>
             <li>
-              <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">SERVICES</a>
+              <a
+                class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                >ABOUT US</a
+              >
             </li>
-            <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">WORKS</a></li>
+            <li>
+              <a
+                class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                >SERVICES</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]"
+                >WORKS</a
+              >
+            </li>
           </ul>
         </div>
         <div class="navbar-end">
           <a
-            class="btn bg-[#5E3BEE] text-white text-xs rounded-2xl font-poppins"
-            >HIRE ME <i class="fa-solid fa-envelope pl-1 text-xs text-white"></i>
+            class="btn bg-[#5E3BEE] text-white text-xs rounded-3xl font-poppins"
+            >HIRE ME
+            <i class="fa-solid fa-envelope pl-1 text-xs text-white"></i>
           </a>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <div class=" mt-10">
+        <div class="max-w-container m-auto  lg:flex justify-between items-center bg-[#F9F9FC]">
+          <div class="w-[100%] lg:w-[60%] m-auto">
+            <p class="text-base text-[#5E3BEE] font-medium font-poppins mb-2 lg:mb-5 text-center lg:text-start ">Twahidul Islam</p>
+            <h1 class="text-[30px] lg:text-[60px] font-bold w-full lg:w-2/3  text-center lg:text-start">Hello, my name’s Twahidul. I’m graphic designer.</h1>
+            <div class="flex justify-center lg:flex lg:justify-start items-center w-full mt-5 lg:mt-10 ">
+              <div class="mr-5">
+                <a
+                  class="btn bg-[#5E3BEE] text-white text-xs rounded-2xl font-poppins h-12"
+                  >HIRE ME
+                  <i class="fa-solid fa-envelope pl-1 text-xs text-white"></i>
+                </a>
+              </div>
+              <div class="">
+                <a
+                  class="btn hover:bg-[#5E3BEE] hover:text-white text-black text-xs rounded-2xl font-poppins h-12"
+                  ><i class="fa-solid fa-envelope pl-1 text-xs hover:text-white text-black"></i>
+                  DOWNLOAD CV
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-[100%] lg:w-[40%] mt-5 lg:mt-0">
+            <picture>
+              <img  class="w-[400px] lg:w-[450px] h-[470px] rounded-[50%] m-auto " src="./images/myImg.jpg" alt="">
+            </picture>
+          </div>
         </div>
       </div>
     </section>
