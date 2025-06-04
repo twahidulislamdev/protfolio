@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts  -->
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome  -->
+    <style type="text/tailwindcss">
+      @theme {
+        --spacing-container: 1320px;
+        --font-poppins: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="max-w-container m-auto mt-3">
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg 
+              class="w-[40px]"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2"
+            >
+              <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">HOME</a></li>
+              <li>
+                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">ABOUT US</a>
+              </li>
+              <li>
+                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">SERVICES</a>
+              </li>
+              <li>
+                <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">WORKS</a>
+              </li>
+            </ul>
+          </div>
+          <a class="text-xl ">
+            <picture>
+              <img
+                class="w-[170px] hidden lg:flex"
+                src="./images/navBarLogo.png"
+                alt=""
+              />
+            </picture>
+          </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">HOME</a></li>
+            <li>
+              <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">ABOUT US</a>
+            </li>
+            <li>
+              <a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">SERVICES</a>
+            </li>
+            <li><a class="text-sm font-normal font-poppins mx-5 hover:text-[#5E3BEE]">WORKS</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn bg-[#5E3BEE] text-white text-xs rounded-2xl font-poppins"
+            >HIRE ME <i class="fa-solid fa-envelope pl-1 text-xs text-white"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
